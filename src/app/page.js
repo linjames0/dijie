@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div>
             <img class="relative" src="/images/landing2.jpg" alt="landing1" />
-            <p class="text-blue-300 text-center mt-10 mb-5">NEW</p>
+            <p class="text-blueAccent text-center font-bold mt-10 mb-5">NEW</p>
             <h1 class="text-5xl text-center">dijie shooter</h1>
             
             <div class="h-10"></div>
@@ -20,7 +20,7 @@ export default function Home() {
                     <ColorButton />
                 </div>
             </div>
-            <button className="w-full mb-5 text-black bg-blue-300">BUY NOW</button>
+            <button className="w-full mb-5 text-black font-bold bg-blueAccent active:bg-white">BUY NOW</button>
 
             <ProductInfo />
             <div className="h-16"/>
