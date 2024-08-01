@@ -1,5 +1,6 @@
 import ColorButton from '../components/colorButton';
 import ProductInfo from '../components/productInfo';
+import SupportInfo from '../components/supportInfo';
 
 export default function Home() {
     return (
@@ -23,6 +24,8 @@ export default function Home() {
             <button className="w-full mb-5 text-black font-bold bg-blueAccent active:bg-white">BUY NOW</button>
 
             <ProductInfo />
+
+            <SupportInfo />
             <div className="h-16"/>
         </div>
     );

@@ -1,15 +1,14 @@
 "use client";
 
 import { useState } from 'react';
-import styles from './productInfo.module.css';
+import styles from './supportInfo.module.css';
 
-export default function ProductInfo() {
+export default function SupportInfo() {
     const [openIndex, setOpenIndex] = useState(null);
 
     const faqs = [
-        { question: "FREE SHIPPING & RETURNS", answer: "Next.js is a React framework for production." },
-        { question: "90 DAY WARRANTY", answer: "Tailwind CSS is a utility-first CSS framework for rapid UI development." },
-        { question: "TECH SPECS", answer: "You can install Tailwind CSS in a Next.js project and configure it to work with your components." },
+        { question: "TRACK MY ORDER", answer: "support" },
+        { question: "CUSTOMER SERVICE", answer: "support" },
     ];
 
     const toggleFaq = (index) => {
@@ -19,7 +18,7 @@ export default function ProductInfo() {
     return (
         <div>
             <hr className="border-gray-600"/>
-            <p className="text-sm text-gray-400 px-3 py-3">PRODUCT INFO</p>
+            <p className="text-sm text-gray-400 px-3 py-3">SUPPORT</p>
             <div className={`"max-w-2xl p-4" ${styles.accordion}`}>
                 <hr className="border-gray-800"/>
                 {faqs.map((faq, index) => (
@@ -37,8 +36,6 @@ export default function ProductInfo() {
                     </div>
                 ))}
             </div>
-            <button className="my-1 mx-3 mb-3">SHARE PRODUCT PAGE</button>
-            <hr className="border-gray-600"/>
 
         </div>
     );
