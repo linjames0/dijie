@@ -21,7 +21,13 @@ export default function Home() {
                     <ColorButton />
                 </div>
             </div>
-            <button className="w-full mb-5 text-black font-bold bg-blueAccent active:bg-white">BUY NOW</button>
+            <button className="w-[98vw] mb-5 mx-1 px-2 text-black font-bold bg-blueAccent active:bg-white">
+                <div className="flex items-center justify-between">
+                    <p>BUY NOW</p>
+                    <p>$195</p>
+                </div>
+                
+            </button>
 
             <ProductInfo />
 
