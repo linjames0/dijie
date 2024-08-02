@@ -29,7 +29,7 @@ export default function Slideshow() {
             }
         }
 
-        const timer = setTimeout(showSlides, 3000);
+        const timer = setTimeout(showSlides, 2000);
 
         return () => clearTimeout(timer);
     }, [slideIndex]);
@@ -46,7 +46,7 @@ export default function Slideshow() {
                 </div>
 
                 <div class="slides fade hidden">
-                    <img src="/images/landing3.jpg" class="w-[100%]" />
+                    <img src="/images/landing6.jpg" class="w-[100%]" />
                 </div>
 
                 {/* <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
