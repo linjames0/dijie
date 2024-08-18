@@ -8,8 +8,6 @@ export default function Home() {
         <div>
             {/* <img class="relative" src="/images/landing2.jpg" alt="landing1" /> */}
             <Carousel />
-            <p class="text-blueAccent text-center font-bold mt-10 mb-5">NEW</p>
-            <h1 class="text-5xl text-center">dijie shooter</h1>
             
             <div class="h-10"></div>
             <hr class="border-gray-600"/>
