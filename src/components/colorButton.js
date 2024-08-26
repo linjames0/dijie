@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function ColorButtons() {
+export default function ColorButton() {
     const [activeButton, setActiveButton] = useState(1);
 
     const handleClick = (buttonNumber) => {

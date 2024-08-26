@@ -1,3 +1,4 @@
+import styles from "../components/carousel.module.css";
 import ColorButton from '@/components/colorButton';
 import ProductInfo from '@/components/productInfo';
 import SupportInfo from '@/components/supportInfo';
@@ -9,7 +10,7 @@ export default function Home() {
             {/* <img class="relative" src="/images/landing2.jpg" alt="landing1" /> */}
             <Carousel />
             
-            <div class="h-10"></div>
+            <div class="h-3"></div>
             <hr class="border-gray-600"/>
 
             <p class="text-sm text-gray-400 p-3">START TAKING DIJIES</p>
