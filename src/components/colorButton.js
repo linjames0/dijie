@@ -1,6 +1,6 @@
 "use client";
-
-import { useState } from 'react';
+import { useState } from "react";
+import BuyNow from "@/components/buyNow";
 
 export default function ColorButton() {
     const [activeButton, setActiveButton] = useState(1);
@@ -46,11 +46,16 @@ export default function ColorButton() {
                     </div>
                     <p className={`${"text-center"} ${activeButton === 1 ? 'block' : 'hidden'}`}>Charcoal</p>
                     <p className={`${"text-center"} ${activeButton === 2 ? 'block' : 'hidden'}`}>Seafoam Gray</p>
-                    <p className={`${"text-center"} ${activeButton === 3 ? 'block' : 'hidden'}`}>Morning Yellow</p>
-                    <p className={`${"text-center"} ${activeButton === 4 ? 'block' : 'hidden'}`}>Blossom Pink</p>
+                    <p className={`${"text-center"} ${activeButton === 3 ? 'block' : 'hidden'}`}>Marigold</p>
+                    <p className={`${"text-center"} ${activeButton === 4 ? 'block' : 'hidden'}`}>Peony Pink</p>
                 </div>
-                
             </div>
+
+            <BuyNow link="https://cad205-5a.myshopify.com/cart/44096659325116:1" className={`${activeButton === 1 ? 'block' : 'hidden'}`}/>
+            <BuyNow link="https://cad205-5a.myshopify.com/cart/44096659357884:1" className={`${activeButton === 2 ? 'block' : 'hidden'}`}/>
+            <BuyNow link="https://cad205-5a.myshopify.com/cart/44096659390652:1" className={`${activeButton === 3 ? 'block' : 'hidden'}`}/>
+            <BuyNow link="https://cad205-5a.myshopify.com/cart/44096659423420:1" className={`${activeButton === 4 ? 'block' : 'hidden'}`}/>
+
         </div>
     );
 }

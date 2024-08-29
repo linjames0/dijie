@@ -15,7 +15,7 @@ import { OrbitControls } from '@react-three/drei';
 
 export default function Home() {
     useEffect(() => {
-        document.addEventListener("scroll", function () {
+        const handleScroll = () => {
             const colorBox = document.getElementById("colorBox");
             const scrollY = window.scrollY;
             const maxScroll = document.body.scrollHeight - window.innerHeight;
@@ -31,16 +31,22 @@ export default function Home() {
                 colorBox.classList.remove("scrolled");
             }
         
-            // Calculate a dynamic color based on scroll position
             const red = Math.min(255, Math.floor(scrollFraction * 255));
             const green = Math.min(255, Math.floor((1 - scrollFraction) * 255));
-            const blue = 150; // You can keep one color constant for a more defined effect
+            const blue = 150;
             
             if (colorBox.classList.contains("scrolled")) {
                 colorBox.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
             }
-        });
-    });
+        };
+
+        document.addEventListener("scroll", handleScroll);
+
+        return () => {
+            document.removeEventListener("scroll", handleScroll);
+        };
+
+    }, []);
 
     return (
         <div>            
@@ -60,20 +66,8 @@ export default function Home() {
 
             <p className="text-sm text-gray-400 p-3">START TAKING DIJIES</p>
 
-            {/* <div class="flex items-center justify-between p-3 pt-0">
-                <p>SELECT COLOR</p>
-                <div class="flex items-center">
-                    <ColorButton />
-                </div>
-            </div> */}
             <ColorButton />
-            <button className="w-[98vw] mb-5 mx-1 px-2 text-black font-bold bg-blueAccent active:bg-white">
-                <div className="flex items-center justify-between">
-                    <p>BUY NOW</p>
-                    <p>$195</p>
-                </div>
-                
-            </button>
+            
 
             <ProductInfo />
 
