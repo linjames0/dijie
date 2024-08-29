@@ -7,9 +7,9 @@ export default function ProductInfo() {
     const [openIndex, setOpenIndex] = useState(null);
 
     const faqs = [
-        { question: "FREE SHIPPING & RETURNS", answer: "Next.js is a React framework for production." },
-        { question: "90 DAY WARRANTY", answer: "Tailwind CSS is a utility-first CSS framework for rapid UI development." },
-        { question: "TECH SPECS", answer: "You can install Tailwind CSS in a Next.js project and configure it to work with your components." },
+        { question: "FREE SHIPPING & RETURNS", answer: "shipping" },
+        { question: "90 DAY WARRANTY", answer: "warranty" },
+        { question: "TECH SPECS", answer: "specs" },
     ];
 
     const toggleFaq = (index) => {

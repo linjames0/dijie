@@ -1,0 +1,243 @@
+newmtl Hawaiian Passion
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl Niagara
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Glossy Tint 1
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Glossy Tint
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Niagara 1
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Nylon
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Freya
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl Kentucky
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Hawaiian Passion 1
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl Refresh
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Glossy Tint 2
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Jupiter
+Kd 0.200 0.200 0.200
+d 1.000
+newmtl Harvest Time
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd colorTexture&opacityTexture.png
+newmtl Niagara 2
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Glossy Tint 3
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Early Glow
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Glossy Tint 4
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Melbourne
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Glossy Tint 5
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Amazonian
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Glossy Tint 6
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Harvest Time 1
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd colorTexture&opacityTexture.png
+newmtl Argos
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Glossy Tint 7
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Niagara 3
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Rosemary
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Aero
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Wellington
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Niagara 4
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Niagara 5
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Niagara 6
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Troy
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Union
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Distant Valley
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Rowan
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Manchester
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Saxon
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Emperor
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Ace
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Fountain
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Havana
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl High Point
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Rosemary 1
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Rosemary 2
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Rosemary 3
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Rosemary 4
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Rosemary 5
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Glossy Tint 8
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Kenya
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Lunar Dust
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Kimberly
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Aquarius
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Citadel
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Alvin
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Warrior
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Glossy Tint 9
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Glossy Tint 10
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Glossy Tint 11
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Glossy Tint 12
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Victoria
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Alexa
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Blair
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Morning Shine
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Andorra
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl California Dream
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Warm Welcome
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Island Paradise
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Andres
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Ducati
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Glossy Tint 13
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl City Park
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Niagara 7
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Niagara 8
+Kd 0.180 0.180 0.180
+d 1.000
+newmtl Glossy Tint 14
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Dust Storm
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Glossy Tint 15
+Kd 0.910 0.910 0.910
+d 1.000
+newmtl Durango
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Harvest Time 2
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd colorTexture&opacityTexture.png
+newmtl Argos 1
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl California
+Kd 0.937 0.937 0.937
+d 1.000
